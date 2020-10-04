@@ -1,19 +1,45 @@
-# music
+# vue-music
 
-## Project setup
-```
-npm install
-```
+线上地址：[]:http://47.106.165.163/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+后端使用使用**Binaryify**大佬提供的接口，项目地址：[]:https://github.com/Binaryify/NeteaseCloudMusicApi
 
-### Compiles and minifies for production
-```
-npm run build
-```
+使用vue全家桶和better-scroll仿的网易云手机端app,主要实现了以下几个功能：
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* 用户登录
+
+  ![](.\imgs\1.PNG)
+
+* 用户详情
+
+  ![](.\imgs\10.PNG)
+
+* 首页
+
+  ![](.\imgs\2.PNG)
+
+* 歌单
+
+  ![](.\imgs\3.PNG)
+
+* 歌单详情
+
+  ![](.\imgs\4.PNG)
+
+* 搜索
+
+  ![](.\imgs\6.PNG)
+
+* 排行榜
+
+  ![](.\imgs\5.PNG)
+
+* 音乐播放
+
+  ![](.\imgs\7.PNG)
+
+    	![](.\imgs\9.PNG)
+
+* 歌词
+
+  ![](.\imgs\8.PNG)

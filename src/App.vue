@@ -1,32 +1,45 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <nav-bar :titles = "tabs" class="navBar" />
+    <keep-alive>
+     <router-view   />
+    </keep-alive>
+     <player />
   </div>
 </template>
 
+<script>
+import NavBar from "@/components/NavBar"
+import Player from '@/components/common/player/Player'
+export default {
+  components:{
+    NavBar,
+    Player
+  },
+  data(){
+    return {
+      tabs:[
+        {title:'我的',path:'/profile'},
+        {title:'发现',path:'/'},
+        {title:'排行榜',path:'/rank'},
+        {title:'搜索',path:"/search"}
+      ]
+    }
+  },
+}
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.navBar{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
