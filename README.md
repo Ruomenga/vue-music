@@ -4,6 +4,10 @@
 
 后端使用使用**Binaryify**大佬提供的接口，项目地址：[]:https://github.com/Binaryify/NeteaseCloudMusicApi
 
+手机扫码体验更好：
+
+![](./imgs/0.png)
+
 使用vue全家桶和better-scroll仿的网易云手机端app,主要实现了以下几个功能：
 
 * 用户登录
