@@ -12,34 +12,34 @@
 
 * 用户详情
 
-  ![](.\imgs\10.PNG)
+  ![](./imgs/10.PNG)
 
 * 首页
 
-  ![](.\imgs\2.PNG)
+  ![](./imgs/2.PNG)
 
 * 歌单
 
-  ![](.\imgs\3.PNG)
+  ![](./imgs/3.PNG)
 
 * 歌单详情
 
-  ![](.\imgs\4.PNG)
+  ![](./imgs/4.PNG)
 
 * 搜索
 
-  ![](.\imgs\6.PNG)
+  ![](./imgs/6.PNG)
 
 * 排行榜
 
-  ![](.\imgs\5.PNG)
+  ![](./imgs/5.PNG)
 
 * 音乐播放
 
-  ![](.\imgs\7.PNG)
+  ![](./imgs/7.PNG)
 
-    	![](.\imgs\9.PNG)
+    	![](./imgs/9.PNG)
 
 * 歌词
 
-  ![](.\imgs\8.PNG)
+  ![](./imgs/8.PNG)
