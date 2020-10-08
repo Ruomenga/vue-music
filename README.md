@@ -6,7 +6,7 @@
 
 手机扫码体验更好：
 
-![](./imgs/0.png)
+![](./imgs/0.PNG)
 
 使用vue全家桶和better-scroll仿的网易云手机端app,主要实现了以下几个功能：
 
